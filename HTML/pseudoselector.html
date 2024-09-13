@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        p::first-letter{
+            font-size: 50px;
+            color: red;
+        }
+        p::before{
+            content: "Bangalore";
+        }
+        h1::first-line{
+            color: purple;
+            font-size: 20px;
+        }
+        button{
+            font-size: 30px;
+        }
+        button::before{
+            content: "  click ";
+        }
+        button::after{
+            content: " login";
+        }
+        input::placeholder{
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <input type="text" placeholder="Enter the text"> <br>
+    <button>here</button> <br> <br>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis eius iure earum ea eos ad ipsum odit fugiat impedit optio, iusto blanditiis illum officiis ut numquam! Alias ullam ipsum distinctio.</p>
+     <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, ea velit necessitatibus eius expedita fugiat, impedit dolorem assumenda aliquid, enim repellendus dicta sapiente soluta perspiciatis? Asperiores exercitationem explicabo possimus illum.</h1>
+
+</body>
+</html>

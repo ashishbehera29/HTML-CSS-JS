@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .body {
+    display: block;
+    margin: 8px;
+    margin-top:100px ;
+    margin-right:100px ;
+    margin-bottom:100px ;
+    margin-left:100px ;
+}
+        .parent{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+            height: 100px;
+            width: 1000px;
+            background-color: rgb(248, 249, 249);
+            color: white;
+            font-size: 50px;
+            border-radius: 5%;
+            align-items: center;
+            box-shadow: 10px 5px 5px purple;
+            grid-template-columns: 100px 100px 100px;
+            justify-content: space-evenly;
+            
+            
+        }
+        
+        .parent1{
+            display: grid;
+            flex-direction: column;
+            justify-content: space-evenly;
+            height: 500px;
+            width: 500px;
+            background-color: rgb(25, 208, 208);
+            color: rgb(245, 249, 244);
+            font-size: 50px;
+
+            align-items: center;
+        
+            grid-template-columns: 100px 100px 100px;
+            grid-template-rows: 100px 100px 100px;
+            justify-content: space-evenly;
+            
+            
+        }
+        .box1{
+            height: 50px;
+            width: 50px;
+             background-color: chartreuse;
+        text-align: center;
+        
+        }
+        .box2{
+            text-align: center;
+            height: 50px;
+            width: 50px;
+            background-color: rgb(41, 189, 22);
+            
+        }
+        .box3{
+            text-align: center;
+            height: 50px;
+            width: 50px;
+            background-color: rgb(60, 58, 207);
+            
+            
+        }
+         .box4{
+            text-align: center;
+            height: 50px;
+            width: 50px;
+            background-color: rgb(211, 26, 41);
+         
+            
+            
+        }
+
+    </style>
+</head>
+<body >
+    <div class="parent">
+        <div class="box1"> <img src="./ACCERTS/64366_prev_ui.png" alt="" height="100px" width="150px"></div>
+        <div class="box2">A</div>
+        <div class="box3">A</div>
+        <div class="box4">A</div>
+    </div> 
+    <div class="parent1">
+        <div class="box1">A</div>
+        <div class="box2">A</div>
+        <div class="box3">A</div>
+        <div class="box4">A</div>
+        <div class="box1">A</div>
+        <div class="box2">A</div>
+        <div class="box3">A</div>
+        <div class="box4">A</div>
+        <div class="box1">A</div>
+        <div class="box2">A</div>
+        <div class="box3">A</div>
+        <div class="box4">A</div>
+    </div>
+</body>
+</html>

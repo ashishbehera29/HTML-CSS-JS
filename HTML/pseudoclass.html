@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1:first-child{
+            color: purple;
+            font-size: 50px;
+        }
+        h1:nth-child(3){
+            color: greenyellow;
+            font-size: 60px;
+        }
+        h1:last-child{
+            color: rgb(41, 9, 137);
+            font-size: 50px;
+        }
+        input:focus{
+            padding: 10px 30px;
+            background-color: blueviolet;
+            color: aqua;
+            font-size: 30px;
+        }
+       button,input{
+        transition: 5s;
+       }
+       button:hover{
+           padding: 10px 30px;
+           background-color: blue;
+           color: white;
+           font-size: 20px;
+           margin: 40px;
+       }
+       #d1:active{
+        color: rgb(255, 68, 0);
+       }
+    </style>
+</head>
+<body>
+    <h1>I am heading 1</h1>
+    <h1>I am heading 2</h1>
+    <h1>I am heading 3</h1>
+    <h1>I am heading 4</h1>
+    <h1>I am heading 5</h1>
+    <input type="text" placeholder="Enter text">
+    <input type="text" placeholder="Enter text">
+    <input type="text" placeholder="Enter text">
+    <input type="text" placeholder="Enter text">
+    <button>click</button>
+    <a href=""><h1>i am visited</h1></a>
+    <h1 id="d1">i am active button</h1>
+</body>
+</html>
